@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F0E45B224C91199001EEFA6 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E45B124C91199001EEFA6 /* Resources.swift */; };
+		9F6F857F24C86F3C000E7BE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6F857E24C86F3C000E7BE6 /* AppDelegate.swift */; };
+		9F6F858124C86F3C000E7BE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6F858024C86F3C000E7BE6 /* ViewController.swift */; };
+		9F6F858324C86F42000E7BE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F6F858224C86F42000E7BE6 /* Assets.xcassets */; };
+		9F6F858624C86F42000E7BE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6F858424C86F42000E7BE6 /* Main.storyboard */; };
+		9F6F859224C86F43000E7BE6 /* Ethiopian_CalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6F859124C86F43000E7BE6 /* Ethiopian_CalendarTests.swift */; };
+		9F6F859D24C86F43000E7BE6 /* Ethiopian_CalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6F859C24C86F43000E7BE6 /* Ethiopian_CalendarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F6F858E24C86F43000E7BE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F6F857324C86F3C000E7BE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F6F857A24C86F3C000E7BE6;
+			remoteInfo = "Ethiopian Calendar";
+		};
+		9F6F859924C86F43000E7BE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F6F857324C86F3C000E7BE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F6F857A24C86F3C000E7BE6;
+			remoteInfo = "Ethiopian Calendar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F0E45B124C91199001EEFA6 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		9F6F857B24C86F3C000E7BE6 /* Ethiopian Calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ethiopian Calendar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F6F857E24C86F3C000E7BE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F6F858024C86F3C000E7BE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F6F858224C86F42000E7BE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F6F858524C86F42000E7BE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F6F858724C86F42000E7BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F6F858824C86F42000E7BE6 /* Ethiopian_Calendar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ethiopian_Calendar.entitlements; sourceTree = "<group>"; };
+		9F6F858D24C86F43000E7BE6 /* Ethiopian CalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ethiopian CalendarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F6F859124C86F43000E7BE6 /* Ethiopian_CalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ethiopian_CalendarTests.swift; sourceTree = "<group>"; };
+		9F6F859324C86F43000E7BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F6F859824C86F43000E7BE6 /* Ethiopian CalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ethiopian CalendarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F6F859C24C86F43000E7BE6 /* Ethiopian_CalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ethiopian_CalendarUITests.swift; sourceTree = "<group>"; };
+		9F6F859E24C86F43000E7BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F6F857824C86F3C000E7BE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6F858A24C86F43000E7BE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6F859524C86F43000E7BE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F6F857224C86F3C000E7BE6 = {
+			isa = PBXGroup;
+			children = (
+				9F6F857D24C86F3C000E7BE6 /* Ethiopian Calendar */,
+				9F6F859024C86F43000E7BE6 /* Ethiopian CalendarTests */,
+				9F6F859B24C86F43000E7BE6 /* Ethiopian CalendarUITests */,
+				9F6F857C24C86F3C000E7BE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F6F857C24C86F3C000E7BE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F6F857B24C86F3C000E7BE6 /* Ethiopian Calendar.app */,
+				9F6F858D24C86F43000E7BE6 /* Ethiopian CalendarTests.xctest */,
+				9F6F859824C86F43000E7BE6 /* Ethiopian CalendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F6F857D24C86F3C000E7BE6 /* Ethiopian Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				9F6F857E24C86F3C000E7BE6 /* AppDelegate.swift */,
+				9F6F858024C86F3C000E7BE6 /* ViewController.swift */,
+				9F6F858224C86F42000E7BE6 /* Assets.xcassets */,
+				9F6F858424C86F42000E7BE6 /* Main.storyboard */,
+				9F6F858724C86F42000E7BE6 /* Info.plist */,
+				9F6F858824C86F42000E7BE6 /* Ethiopian_Calendar.entitlements */,
+				9F0E45B124C91199001EEFA6 /* Resources.swift */,
+			);
+			path = "Ethiopian Calendar";
+			sourceTree = "<group>";
+		};
+		9F6F859024C86F43000E7BE6 /* Ethiopian CalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F6F859124C86F43000E7BE6 /* Ethiopian_CalendarTests.swift */,
+				9F6F859324C86F43000E7BE6 /* Info.plist */,
+			);
+			path = "Ethiopian CalendarTests";
+			sourceTree = "<group>";
+		};
+		9F6F859B24C86F43000E7BE6 /* Ethiopian CalendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F6F859C24C86F43000E7BE6 /* Ethiopian_CalendarUITests.swift */,
+				9F6F859E24C86F43000E7BE6 /* Info.plist */,
+			);
+			path = "Ethiopian CalendarUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F6F857A24C86F3C000E7BE6 /* Ethiopian Calendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F6F85A124C86F43000E7BE6 /* Build configuration list for PBXNativeTarget "Ethiopian Calendar" */;
+			buildPhases = (
+				9F6F857724C86F3C000E7BE6 /* Sources */,
+				9F6F857824C86F3C000E7BE6 /* Frameworks */,
+				9F6F857924C86F3C000E7BE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ethiopian Calendar";
+			productName = "Ethiopian Calendar";
+			productReference = 9F6F857B24C86F3C000E7BE6 /* Ethiopian Calendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F6F858C24C86F43000E7BE6 /* Ethiopian CalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F6F85A424C86F43000E7BE6 /* Build configuration list for PBXNativeTarget "Ethiopian CalendarTests" */;
+			buildPhases = (
+				9F6F858924C86F43000E7BE6 /* Sources */,
+				9F6F858A24C86F43000E7BE6 /* Frameworks */,
+				9F6F858B24C86F43000E7BE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F6F858F24C86F43000E7BE6 /* PBXTargetDependency */,
+			);
+			name = "Ethiopian CalendarTests";
+			productName = "Ethiopian CalendarTests";
+			productReference = 9F6F858D24C86F43000E7BE6 /* Ethiopian CalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F6F859724C86F43000E7BE6 /* Ethiopian CalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F6F85A724C86F43000E7BE6 /* Build configuration list for PBXNativeTarget "Ethiopian CalendarUITests" */;
+			buildPhases = (
+				9F6F859424C86F43000E7BE6 /* Sources */,
+				9F6F859524C86F43000E7BE6 /* Frameworks */,
+				9F6F859624C86F43000E7BE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F6F859A24C86F43000E7BE6 /* PBXTargetDependency */,
+			);
+			name = "Ethiopian CalendarUITests";
+			productName = "Ethiopian CalendarUITests";
+			productReference = 9F6F859824C86F43000E7BE6 /* Ethiopian CalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F6F857324C86F3C000E7BE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Biruk Dubale";
+				TargetAttributes = {
+					9F6F857A24C86F3C000E7BE6 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					9F6F858C24C86F43000E7BE6 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 9F6F857A24C86F3C000E7BE6;
+					};
+					9F6F859724C86F43000E7BE6 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 9F6F857A24C86F3C000E7BE6;
+					};
+				};
+			};
+			buildConfigurationList = 9F6F857624C86F3C000E7BE6 /* Build configuration list for PBXProject "Ethiopian Calendar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F6F857224C86F3C000E7BE6;
+			productRefGroup = 9F6F857C24C86F3C000E7BE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F6F857A24C86F3C000E7BE6 /* Ethiopian Calendar */,
+				9F6F858C24C86F43000E7BE6 /* Ethiopian CalendarTests */,
+				9F6F859724C86F43000E7BE6 /* Ethiopian CalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F6F857924C86F3C000E7BE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F6F858324C86F42000E7BE6 /* Assets.xcassets in Resources */,
+				9F6F858624C86F42000E7BE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6F858B24C86F43000E7BE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6F859624C86F43000E7BE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F6F857724C86F3C000E7BE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0E45B224C91199001EEFA6 /* Resources.swift in Sources */,
+				9F6F858124C86F3C000E7BE6 /* ViewController.swift in Sources */,
+				9F6F857F24C86F3C000E7BE6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6F858924C86F43000E7BE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F6F859224C86F43000E7BE6 /* Ethiopian_CalendarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6F859424C86F43000E7BE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F6F859D24C86F43000E7BE6 /* Ethiopian_CalendarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F6F858F24C86F43000E7BE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F6F857A24C86F3C000E7BE6 /* Ethiopian Calendar */;
+			targetProxy = 9F6F858E24C86F43000E7BE6 /* PBXContainerItemProxy */;
+		};
+		9F6F859A24C86F43000E7BE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F6F857A24C86F3C000E7BE6 /* Ethiopian Calendar */;
+			targetProxy = 9F6F859924C86F43000E7BE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F6F858424C86F42000E7BE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F6F858524C86F42000E7BE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F6F859F24C86F43000E7BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F6F85A024C86F43000E7BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9F6F85A224C86F43000E7BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Ethiopian Calendar/Ethiopian_Calendar.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Ethiopian Calendar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "birukdubale.Ethiopian-Calendar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9F6F85A324C86F43000E7BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Ethiopian Calendar/Ethiopian_Calendar.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Ethiopian Calendar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "birukdubale.Ethiopian-Calendar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9F6F85A524C86F43000E7BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Ethiopian CalendarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "birukdubale.Ethiopian-CalendarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ethiopian Calendar.app/Contents/MacOS/Ethiopian Calendar";
+			};
+			name = Debug;
+		};
+		9F6F85A624C86F43000E7BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Ethiopian CalendarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "birukdubale.Ethiopian-CalendarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ethiopian Calendar.app/Contents/MacOS/Ethiopian Calendar";
+			};
+			name = Release;
+		};
+		9F6F85A824C86F43000E7BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Ethiopian CalendarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "birukdubale.Ethiopian-CalendarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Ethiopian Calendar";
+			};
+			name = Debug;
+		};
+		9F6F85A924C86F43000E7BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Ethiopian CalendarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "birukdubale.Ethiopian-CalendarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Ethiopian Calendar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F6F857624C86F3C000E7BE6 /* Build configuration list for PBXProject "Ethiopian Calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F6F859F24C86F43000E7BE6 /* Debug */,
+				9F6F85A024C86F43000E7BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F6F85A124C86F43000E7BE6 /* Build configuration list for PBXNativeTarget "Ethiopian Calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F6F85A224C86F43000E7BE6 /* Debug */,
+				9F6F85A324C86F43000E7BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F6F85A424C86F43000E7BE6 /* Build configuration list for PBXNativeTarget "Ethiopian CalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F6F85A524C86F43000E7BE6 /* Debug */,
+				9F6F85A624C86F43000E7BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F6F85A724C86F43000E7BE6 /* Build configuration list for PBXNativeTarget "Ethiopian CalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F6F85A824C86F43000E7BE6 /* Debug */,
+				9F6F85A924C86F43000E7BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F6F857324C86F3C000E7BE6 /* Project object */;
+}

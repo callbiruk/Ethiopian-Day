@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "AppDelegate.statusBarButtonClicked(sender:):AppDelegate.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "statusItem.menu">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AppDelegate.showCalendar():AppDelegate.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "button.bounds">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
